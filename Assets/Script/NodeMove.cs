@@ -27,9 +27,13 @@ public class NodeMove : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Judge") && Input.GetKey(KeyCode.Return)/*EnterÉLÅ[*/)
+        if (other.gameObject.CompareTag("Judge"))
         {
-            gameObject.SetActive(false);
+            if(Input.GetKeyDown(KeyCode.A))
+            {
+                
+                gameObject.SetActive(false);
+            }
         }
     }
 }
