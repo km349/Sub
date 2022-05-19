@@ -14,29 +14,19 @@ public class BattleScene : MonoBehaviour
     {
         scene = gameObject.AddComponent<Scene>();
         player = gameObject.AddComponent<Player>();
+        enemy = gameObject.AddComponent<Enemy>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(SceneManager.GetActiveScene().name=="Battle")
-        {
-            if (GameObject.Find(enemy.GetSetEnemyNum))
-            {
-                gameObject.SetActive(true);
-                enemy.GetSetEnemyNum = null;
-            }
-        }
-
         if (player.GetSetPlayerHP <= 0)
         {
             scene.ChangeScene((int)Scene.SceneName.GameOver);
-            enemy.GetSetEnemyBattleFlg = true;
         }
         if (enemy.GetSetEnemyHP <= 0)
         {
-            //scene.ChangeScene((int)Scene.SceneName.GameOver);
-            enemy.GetSetEnemyBattleFlg = true;
+            scene.ChangeScene((int)Scene.SceneName.GameClear);
         }
     }
 }

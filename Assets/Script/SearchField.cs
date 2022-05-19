@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 public class SearchField : MonoBehaviour
 {
     Scene scene;
-    Enemy enemy;
     private bool nextScene = false;
 
     public bool GetSetNextFlg
@@ -19,7 +18,6 @@ public class SearchField : MonoBehaviour
     void Start()
     {
         scene = gameObject.AddComponent<Scene>();
-        enemy = gameObject.AddComponent<Enemy>();
     }
 
     // Update is called once per frame
@@ -73,16 +71,8 @@ public class SearchField : MonoBehaviour
         }
         if (SceneManager.GetActiveScene().name == "Search09" && nextScene) 
         {
-            scene.ChangeScene((int)Scene.SceneName.GameClear);
+            scene.ChangeScene((int)Scene.SceneName.Battle);
             nextScene = false;
         }
-
-        //if (scene.GetSetSceneFlg == 1 || scene.GetSetSceneFlg == 2 || scene.GetSetSceneFlg == 3 ||
-        //    scene.GetSetSceneFlg == 4 || scene.GetSetSceneFlg == 5 || scene.GetSetSceneFlg == 6 ||
-        //    scene.GetSetSceneFlg == 7 || scene.GetSetSceneFlg == 8 || scene.GetSetSceneFlg == 9 && enemy.GetSetEnemyBattleFlg) 
-        //{
-        //    scene.ChangeScene((int)Scene.SceneName.Battle);
-        //    enemy.GetSetEnemyBattleFlg = false;
-        //}
     }
 }
