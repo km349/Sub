@@ -322,6 +322,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 151805660820899833, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_TagString
+      value: Stage
+      objectReference: {fileID: 0}
+    - target: {fileID: 151805660820899834, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c59ed9af215852345ade356908f89154, type: 3}
     - target: {fileID: 421493577637163924, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -346,6 +354,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 539461354785638592, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_TagString
+      value: Tile
+      objectReference: {fileID: 0}
     - target: {fileID: 539461354785638593, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -370,6 +382,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 539461354785638595, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 83ed60e891075814b86cd4fff2207cfa, type: 3}
     - target: {fileID: 840200319153271411, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -418,6 +434,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1068837431928265473, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_TagString
+      value: Tile
+      objectReference: {fileID: 0}
+    - target: {fileID: 1068837431928265474, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 83ed60e891075814b86cd4fff2207cfa, type: 3}
     - target: {fileID: 1125109731913050927, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -466,6 +490,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1608585502510823724, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c59ed9af215852345ade356908f89154, type: 3}
     - target: {fileID: 1608585502510823726, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -513,6 +541,22 @@ PrefabInstance:
     - target: {fileID: 1847762176617289244, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1847762176617289245, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_TagString
+      value: Tile
+      objectReference: {fileID: 0}
+    - target: {fileID: 1847762176617289246, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 83ed60e891075814b86cd4fff2207cfa, type: 3}
+    - target: {fileID: 1981774838989519861, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 83ed60e891075814b86cd4fff2207cfa, type: 3}
+    - target: {fileID: 1981774838989519862, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_TagString
+      value: Tile
       objectReference: {fileID: 0}
     - target: {fileID: 1981774838989519863, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
       propertyPath: m_AnchorMax.y
@@ -650,6 +694,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2092504655939459776, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 83ed60e891075814b86cd4fff2207cfa, type: 3}
     - target: {fileID: 2092504655939459778, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -674,6 +722,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2092504655939459779, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_TagString
+      value: Tile
+      objectReference: {fileID: 0}
     - target: {fileID: 2142761270145326132, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -746,6 +798,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2211038767687242421, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_TagString
+      value: Stage
+      objectReference: {fileID: 0}
+    - target: {fileID: 2211038767687242422, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c59ed9af215852345ade356908f89154, type: 3}
     - target: {fileID: 2266417893823079413, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1410,6 +1470,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2839936154259387013, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 83ed60e891075814b86cd4fff2207cfa, type: 3}
+    - target: {fileID: 2839936154259387014, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_TagString
+      value: Tile
+      objectReference: {fileID: 0}
     - target: {fileID: 2839936154259387015, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1482,6 +1550,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2915631864427639113, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_TagString
+      value: Stage
+      objectReference: {fileID: 0}
+    - target: {fileID: 2915631864427639114, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c59ed9af215852345ade356908f89154, type: 3}
     - target: {fileID: 2928148894166889011, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1506,6 +1582,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3254418237409559668, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c59ed9af215852345ade356908f89154, type: 3}
     - target: {fileID: 3254418237409559670, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1529,6 +1609,10 @@ PrefabInstance:
     - target: {fileID: 3254418237409559670, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254418237409559671, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_TagString
+      value: Stage
       objectReference: {fileID: 0}
     - target: {fileID: 3374872769294764196, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1578,6 +1662,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3492278399751343192, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 83ed60e891075814b86cd4fff2207cfa, type: 3}
     - target: {fileID: 3492278399751343194, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1601,6 +1689,10 @@ PrefabInstance:
     - target: {fileID: 3492278399751343194, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3492278399751343195, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_TagString
+      value: Tile
       objectReference: {fileID: 0}
     - target: {fileID: 3585334194623135155, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1650,6 +1742,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3898571656555117812, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 83ed60e891075814b86cd4fff2207cfa, type: 3}
     - target: {fileID: 3898571656555117814, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1673,6 +1769,10 @@ PrefabInstance:
     - target: {fileID: 3898571656555117814, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898571656555117815, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_TagString
+      value: Tile
       objectReference: {fileID: 0}
     - target: {fileID: 4160469179428771585, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1722,6 +1822,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4339705809579345612, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c59ed9af215852345ade356908f89154, type: 3}
     - target: {fileID: 4339705809579345614, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1746,6 +1850,18 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4339705809579345615, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_TagString
+      value: Stage
+      objectReference: {fileID: 0}
+    - target: {fileID: 4364610640867042325, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c59ed9af215852345ade356908f89154, type: 3}
+    - target: {fileID: 4364610640867042326, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_TagString
+      value: Stage
+      objectReference: {fileID: 0}
     - target: {fileID: 4364610640867042327, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1770,6 +1886,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4417907209066429132, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_TagString
+      value: Tile
+      objectReference: {fileID: 0}
     - target: {fileID: 4417907209066429133, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1794,6 +1914,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4417907209066429135, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 83ed60e891075814b86cd4fff2207cfa, type: 3}
     - target: {fileID: 4534156112461807980, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1914,6 +2038,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5064541251651070188, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_TagString
+      value: Tile
+      objectReference: {fileID: 0}
     - target: {fileID: 5064541251651070189, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1937,6 +2065,18 @@ PrefabInstance:
     - target: {fileID: 5064541251651070189, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5064541251651070191, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 83ed60e891075814b86cd4fff2207cfa, type: 3}
+    - target: {fileID: 5227259406160413373, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 83ed60e891075814b86cd4fff2207cfa, type: 3}
+    - target: {fileID: 5227259406160413374, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_TagString
+      value: Tile
       objectReference: {fileID: 0}
     - target: {fileID: 5227259406160413375, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1986,6 +2126,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5659736390960900965, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 83ed60e891075814b86cd4fff2207cfa, type: 3}
+    - target: {fileID: 5659736390960900966, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_TagString
+      value: Tile
+      objectReference: {fileID: 0}
     - target: {fileID: 5659736390960900967, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -2034,6 +2182,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6420320512653328324, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_TagString
+      value: Stage
+      objectReference: {fileID: 0}
     - target: {fileID: 6420320512653328325, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -2058,6 +2210,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6420320512653328327, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c59ed9af215852345ade356908f89154, type: 3}
+    - target: {fileID: 6529862752044655792, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_TagString
+      value: Tile
+      objectReference: {fileID: 0}
     - target: {fileID: 6529862752044655793, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -2081,6 +2241,18 @@ PrefabInstance:
     - target: {fileID: 6529862752044655793, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6529862752044655795, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 83ed60e891075814b86cd4fff2207cfa, type: 3}
+    - target: {fileID: 6625886241520164161, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 83ed60e891075814b86cd4fff2207cfa, type: 3}
+    - target: {fileID: 6625886241520164162, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_TagString
+      value: Tile
       objectReference: {fileID: 0}
     - target: {fileID: 6625886241520164163, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
       propertyPath: m_AnchorMax.y
@@ -2178,6 +2350,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7139890790921449161, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 83ed60e891075814b86cd4fff2207cfa, type: 3}
+    - target: {fileID: 7139890790921449162, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_TagString
+      value: Tile
+      objectReference: {fileID: 0}
     - target: {fileID: 7139890790921449163, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -2201,6 +2381,14 @@ PrefabInstance:
     - target: {fileID: 7139890790921449163, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7283403774061181821, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 83ed60e891075814b86cd4fff2207cfa, type: 3}
+    - target: {fileID: 7283403774061181822, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_TagString
+      value: Tile
       objectReference: {fileID: 0}
     - target: {fileID: 7283403774061181823, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
       propertyPath: m_AnchorMax.y
@@ -2250,6 +2438,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7719849026890408620, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5b5cee2bb4c733443b6110866dd06bf8, type: 3}
     - target: {fileID: 7719849026890408622, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -2273,6 +2465,10 @@ PrefabInstance:
     - target: {fileID: 7719849026890408622, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719849026890408623, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_TagString
+      value: Stairs
       objectReference: {fileID: 0}
     - target: {fileID: 7861170544260993671, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
       propertyPath: m_AnchorMax.y
@@ -2322,6 +2518,18 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7926952684429514749, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_TagString
+      value: Stairs
+      objectReference: {fileID: 0}
+    - target: {fileID: 7926952684429514750, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5b5cee2bb4c733443b6110866dd06bf8, type: 3}
+    - target: {fileID: 7981049231521703588, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c59ed9af215852345ade356908f89154, type: 3}
     - target: {fileID: 7981049231521703590, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -2346,6 +2554,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7981049231521703591, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_TagString
+      value: Stage
+      objectReference: {fileID: 0}
     - target: {fileID: 8044537810577678992, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -2370,6 +2582,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8044537810577678993, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_TagString
+      value: Tile
+      objectReference: {fileID: 0}
+    - target: {fileID: 8044537810577678994, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 83ed60e891075814b86cd4fff2207cfa, type: 3}
     - target: {fileID: 8124256060671754561, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -2418,6 +2638,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8141190636505089561, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_TagString
+      value: Tile
+      objectReference: {fileID: 0}
+    - target: {fileID: 8141190636505089562, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 83ed60e891075814b86cd4fff2207cfa, type: 3}
     - target: {fileID: 8222332559002300956, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -2442,6 +2670,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8222332559002300957, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_TagString
+      value: Tile
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222332559002300958, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 83ed60e891075814b86cd4fff2207cfa, type: 3}
     - target: {fileID: 8242259725582330325, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -2538,6 +2774,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8764776587547712493, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_TagString
+      value: Tile
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764776587547712494, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 83ed60e891075814b86cd4fff2207cfa, type: 3}
     - target: {fileID: 8903962229808890330, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -2562,6 +2806,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9047258521914773908, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_TagString
+      value: Stage
+      objectReference: {fileID: 0}
     - target: {fileID: 9047258521914773909, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -2586,6 +2834,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9047258521914773911, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c59ed9af215852345ade356908f89154, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4046ed37b6d358542811a8c552b97389, type: 3}
 --- !u!1 &1293910120
