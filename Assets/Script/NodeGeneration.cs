@@ -10,7 +10,7 @@ public class NodeGeneration : MonoBehaviour
     [SerializeField]
     GameObject canvas;
 
-    private float interval = 1.0f;
+    private float interval = 0.8f;
     private float timeElapsed = 0.0f;
 
     // Start is called before the first frame update

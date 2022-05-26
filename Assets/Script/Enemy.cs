@@ -2,22 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Enemy : MonoBehaviour
 {
-    private static int currentHP = 10;
+    private static int currentHP = 20;
     public Slider slider;
-    public Rigidbody2D rigidBody;
+    Scene scene;
 
     private bool trg;
-    private string EnemyNam;
-    private bool BattleFlg;
 
-    public string GetSetEnemyNum
-    {
-        get { return EnemyNam; }
-        set { EnemyNam = value; }
-    }
 
     public int GetSetEnemyHP
     {
@@ -25,29 +19,24 @@ public class Enemy : MonoBehaviour
         set { currentHP = value; }
     }
 
-    public bool GetSetEnemyBattleFlg
-    {
-        get { return BattleFlg; }
-        set { BattleFlg = value; }
-    }
-
     // Start is called before the first frame update
     void Start()
     {
-        rigidBody = gameObject.GetComponent<Rigidbody2D>();
+        scene = gameObject.AddComponent<Scene>();
         // Slider‚ð–žƒ^ƒ“
         slider.value = currentHP;
-
-        Debug.Log(EnemyNam);
     }
 
     // Update is called once per frame
     void Update()
     {
-        EnemyBattle();
+        if (SceneManager.GetActiveScene().name == "Battle")
+        {
+            EnemyBattle();
+        }
     }
 
-    private void EnemyBattle()
+    public void EnemyBattle()
     {
         if (Input.GetKeyDown(KeyCode.Return) && trg)
         {

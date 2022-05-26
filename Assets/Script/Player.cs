@@ -9,7 +9,6 @@ public class Player : MonoBehaviour
     Scene scene;
     RectTransform rect;
     SearchField search;
-    Enemy enemy;
     public Slider slider;
     public Rigidbody2D rigidBody;
 
@@ -19,6 +18,8 @@ public class Player : MonoBehaviour
 
     private bool trg;
     private bool StageTrg = true;
+
+
 
     Vector3 currentPos;
 
@@ -33,7 +34,6 @@ public class Player : MonoBehaviour
     {
         scene = gameObject.AddComponent<Scene>();
         search = gameObject.AddComponent<SearchField>();
-        enemy = gameObject.AddComponent<Enemy>();
         rect = gameObject.GetComponent<RectTransform>();
         rigidBody = gameObject.GetComponent<Rigidbody2D>();
 
@@ -111,8 +111,6 @@ public class Player : MonoBehaviour
         }
         if (other.gameObject.CompareTag("Enemy"))
         {
-            enemy.GetSetEnemyNum = other.gameObject.name;
-            enemy.GetSetEnemyBattleFlg = true;
             other.gameObject.SetActive(false);
         }
     }

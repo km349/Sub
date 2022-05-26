@@ -6,8 +6,6 @@ using UnityEngine.SceneManagement;
 public class SearchField : MonoBehaviour
 {
     Scene scene;
-    Enemy enemy;
-    private bool trg;
     private bool nextScene = false;
 
     public bool GetSetNextFlg
@@ -20,7 +18,6 @@ public class SearchField : MonoBehaviour
     void Start()
     {
         scene = gameObject.AddComponent<Scene>();
-        enemy = gameObject.AddComponent<Enemy>();
     }
 
     // Update is called once per frame
@@ -41,93 +38,41 @@ public class SearchField : MonoBehaviour
         {
             scene.ChangeScene((int)Scene.SceneName.Search03);
             nextScene = false;
-            //if (Input.GetKeyDown(KeyCode.Space))
-            //{
-            //    scene.ChangeScene((int)Scene.SceneName.Battle);
-            //}
         }
-        if (SceneManager.GetActiveScene().name == "Search03")
+        if (SceneManager.GetActiveScene().name == "Search03" && nextScene) 
         {
-            if (Input.GetKeyDown(KeyCode.Return) && trg)
-            {
-                scene.ChangeScene((int)Scene.SceneName.Search04);
-                trg = false;
-            }
-            trg = true;
-            //if (Input.GetKeyDown(KeyCode.Space))
-            //{
-            //    scene.ChangeScene((int)Scene.SceneName.Battle);
-            //}
+            scene.ChangeScene((int)Scene.SceneName.Search04);
+            nextScene = false;
         }
-        if (SceneManager.GetActiveScene().name == "Search04")
+        if (SceneManager.GetActiveScene().name == "Search04" && nextScene) 
         {
-            if (Input.GetKeyDown(KeyCode.Return) && trg)
-            {
-                scene.ChangeScene((int)Scene.SceneName.Search05);
-                trg = false;
-            }
-            trg = true;
-            //if (Input.GetKeyDown(KeyCode.Space))
-            //{
-            //    scene.ChangeScene((int)Scene.SceneName.Battle);
-            //}
+            scene.ChangeScene((int)Scene.SceneName.Search05);
+            nextScene = false;
         }
-        if (SceneManager.GetActiveScene().name == "Search05")
+        if (SceneManager.GetActiveScene().name == "Search05" && nextScene) 
         {
-            if (Input.GetKeyDown(KeyCode.Return) && trg)
-            {
-                scene.ChangeScene((int)Scene.SceneName.Search06);
-                trg = false;
-            }
-            trg = true;
-            //if (Input.GetKeyDown(KeyCode.Space))
-            //{
-            //    scene.ChangeScene((int)Scene.SceneName.Battle);
-            //}
+            scene.ChangeScene((int)Scene.SceneName.Search06);
+            nextScene = false;
         }
-        if (SceneManager.GetActiveScene().name == "Search06")
+        if (SceneManager.GetActiveScene().name == "Search06" && nextScene) 
         {
-            if (Input.GetKeyDown(KeyCode.Return) && trg)
-            {
-                scene.ChangeScene((int)Scene.SceneName.Search07);
-                trg = false;
-            }
-            trg = true;
+            scene.ChangeScene((int)Scene.SceneName.Search07);
+            nextScene = false;
         }
-        if (SceneManager.GetActiveScene().name == "Search07")
+        if (SceneManager.GetActiveScene().name == "Search07" && nextScene) 
         {
-            if (Input.GetKeyDown(KeyCode.Return) && trg)
-            {
-                scene.ChangeScene((int)Scene.SceneName.Search08);
-                trg = false;
-            }
-            trg = true;
+            scene.ChangeScene((int)Scene.SceneName.Search08);
+            nextScene = false;
         }
-        if (SceneManager.GetActiveScene().name == "Search08")
+        if (SceneManager.GetActiveScene().name == "Search08" && nextScene) 
         {
-            if (Input.GetKeyDown(KeyCode.Return) && trg)
-            {
-                scene.ChangeScene((int)Scene.SceneName.Search09);
-                trg = false;
-            }
-            trg = true;
+            scene.ChangeScene((int)Scene.SceneName.Search09);
+            nextScene = false;
         }
-        if (SceneManager.GetActiveScene().name == "Search09")
+        if (SceneManager.GetActiveScene().name == "Search09" && nextScene) 
         {
-            if (Input.GetKeyDown(KeyCode.Return) && trg)
-            {
-                scene.ChangeScene((int)Scene.SceneName.GameClear);
-                trg = false;
-            }
-            trg = true;
+            scene.ChangeScene((int)Scene.SceneName.Battle);
+            nextScene = false;
         }
-
-        //if (scene.GetSetSceneFlg == 1 || scene.GetSetSceneFlg == 2 || scene.GetSetSceneFlg == 3 ||
-        //    scene.GetSetSceneFlg == 4 || scene.GetSetSceneFlg == 5 || scene.GetSetSceneFlg == 6 ||
-        //    scene.GetSetSceneFlg == 7 || scene.GetSetSceneFlg == 8 || scene.GetSetSceneFlg == 9 && enemy.GetSetEnemyBattleFlg) 
-        //{
-        //    scene.ChangeScene((int)Scene.SceneName.Battle);
-        //    enemy.GetSetEnemyBattleFlg = false;
-        //}
     }
 }
